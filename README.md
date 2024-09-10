@@ -1,6 +1,5 @@
 # terraform-3-levels-project-structure
 
-
 In this project, we will explain how we can structure our terraform project at 3 different levels.
 
 The first level is represented by the folder under V1 structure.
@@ -88,6 +87,8 @@ The Subnet
 
 ![alt text](images/1.6.png)
 
+
+The V3 structure represent the third level organisation.
 
 As your team grows, you may decide to start using a more advanced structure. In this case, you create a git repository for each individual Terraform module. However, you need to be careful because having hundreds of modules would mean creating hundreds of git repositories. I suggest trying to create reusable modules that you can apply to different applications to minimise the number of git repositories. Using this approach, you can reference a Terraform module by using a git repository, and when you update the Terraform module, you just create a new version and use the tag in your code. Each version folder will represent a git repository for managing your Terraform project. The biggest advantage of this approach is being able to use git tags and version control from your module. Instead of referencing the local within the module, we will reference the git repository that contains the module.
 
