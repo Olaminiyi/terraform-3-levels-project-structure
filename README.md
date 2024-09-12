@@ -1,6 +1,6 @@
 # terraform-3-levels-project-structure
 
-In this project, we will explain how we can structure our terraform project at 3 different levels.
+In this project, we will explain how we can structure our terraform project at 3 different levels
 
 The first level is represented by the folder under V1 structure.
 
