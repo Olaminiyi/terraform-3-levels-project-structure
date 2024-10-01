@@ -1,4 +1,4 @@
-# terraform-3-levels-project-structure
+# terraform-3-levels-project-structure.
 
 In this project, we will explain how we can structure our terraform project at 3 different levels.
 
